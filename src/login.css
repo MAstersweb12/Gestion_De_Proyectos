@@ -1,0 +1,81 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #6A11CB, #2575FC);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #ffffff;
+  }
+  .login-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    background-image: url('images/bit_masters.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 5rem 2rem 2rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  h1, h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+  }
+  .login-container label {
+    font-weight: bold;
+    color: #e0e0e0;
+  }
+  .login-container input[type="text"],
+  .login-container input[type="password"] {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.5rem 0 1.25rem 0;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+  }
+  .login-container input[type="submit"] {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #6A11CB;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .login-container input[type="submit"]:hover {
+    background-color: #4b0ba6;
+  }
+  .login-container .forgot-password {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .login-container .forgot-password a {
+    color: #FF6F61;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .login-container .forgot-password a:hover {
+    text-decoration: underline;
+  }
+  .create-account {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .create-account a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .create-account a:hover {
+    text-decoration: underline;
+  }
+  
