@@ -1,13 +1,15 @@
 const express = require('express');
-const cors = require('cors');  // Importa el paquete cors
+const cors = require('cors');  
 const bodyParser = require('body-parser');
 const mysql = require('mysql2');
 
 const app = express();
 const port = 5000;
 
-// Habilita CORS
-app.use(cors());
+
+app.use(cors({
+  origin: 'https://gestionproyecto-1c75308057e8.herokuapp.com/',  // Reemplaza con el dominio de tu frontend
+}));
 
 // Configura bodyParser
 app.use(bodyParser.json());
